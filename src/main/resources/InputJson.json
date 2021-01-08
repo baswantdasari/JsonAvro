@@ -1,0 +1,418 @@
+{
+    "CostCentreReplicationBulkRequest": {
+      "MessageHeader": {
+        "ID": {
+          "schemeID": "string",
+          "schemeAgencyID": "string",
+          "schemeAgencySchemeAgencyID": "string",
+          "Value": "string"
+        },
+        "UUID": {
+          "schemeID": "string",
+          "schemeAgencyID": "string",
+          "Value": "string"
+        },
+        "ReferenceID": {
+          "schemeID": "string",
+          "schemeAgencyID": "string",
+          "schemeAgencySchemeAgencyID": "string",
+          "Value": "string"
+        },
+        "ReferenceUUID": {
+          "schemeID": "string",
+          "schemeAgencyID": "string",
+          "Value": "string"
+        },
+        "CreationDateTime": "string",
+        "TestDataIndicator": "string",
+        "ReconciliationIndicator": "string",
+        "SenderBusinessSystemID": "string",
+        "RecipientBusinessSystemID": "string",
+        "SenderParty": {
+          "InternalID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "Value": "string"
+          },
+          "StandardID": {
+            "schemeAgencyID": "string",
+            "Value": "string"
+          },
+          "ContactPerson": {
+            "InternalID": {
+              "schemeID": "string",
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "OrganisationFormattedName": "string",
+            "PersonFormattedName": "string",
+            "PhoneNumber": {
+              "AreaID": "string",
+              "SubscriberID": "string",
+              "ExtensionID": "string",
+              "CountryCode": "string",
+              "CountryDiallingCode": "string",
+              "CountryName": {
+                "languageCode": "string",
+                "Value": "string"
+              }
+            },
+            "FaxNumber": {
+              "AreaID": "string",
+              "SubscriberID": "string",
+              "ExtensionID": "string",
+              "CountryCode": "string",
+              "CountryDiallingCode": "string",
+              "CountryName": {
+                "languageCode": "string",
+                "Value": "string"
+              }
+            },
+            "EmailURI": {
+              "schemeID": "string",
+              "Value": "string"
+            }
+          }
+        },
+        "RecipientParty": {
+          "InternalID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "Value": "string"
+          },
+          "StandardID": {
+            "schemeAgencyID": "string",
+            "Value": "string"
+          },
+          "ContactPerson": {
+            "InternalID": {
+              "schemeID": "string",
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "OrganisationFormattedName": "string",
+            "PersonFormattedName": "string",
+            "PhoneNumber": {
+              "AreaID": "string",
+              "SubscriberID": "string",
+              "ExtensionID": "string",
+              "CountryCode": "string",
+              "CountryDiallingCode": "string",
+              "CountryName": {
+                "languageCode": "string",
+                "Value": "string"
+              }
+            },
+            "FaxNumber": {
+              "AreaID": "string",
+              "SubscriberID": "string",
+              "ExtensionID": "string",
+              "CountryCode": "string",
+              "CountryDiallingCode": "string",
+              "CountryName": {
+                "languageCode": "string",
+                "Value": "string"
+              }
+            },
+            "EmailURI": {
+              "schemeID": "string",
+              "Value": "string"
+            }
+          }
+        },
+        "BusinessScope": {
+          "TypeCode": {
+            "listID": "string",
+            "listVersionID": "string",
+            "listAgencyID": "string",
+            "listAgencySchemeID": "string",
+            "listAgencySchemeAgencyID": "string",
+            "Value": "string"
+          },
+          "InstanceID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "Value": "string"
+          },
+          "ID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "Value": "string"
+          }
+        }
+      },
+      "CostCentreReplicationRequestMessage": {
+        "MessageHeader": {
+          "ID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "schemeAgencySchemeAgencyID": "string",
+            "Value": "string"
+          },
+          "UUID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "Value": "string"
+          },
+          "ReferenceID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "schemeAgencySchemeAgencyID": "string",
+            "Value": "string"
+          },
+          "ReferenceUUID": {
+            "schemeID": "string",
+            "schemeAgencyID": "string",
+            "Value": "string"
+          },
+          "CreationDateTime": "string",
+          "TestDataIndicator": "string",
+          "ReconciliationIndicator": "string",
+          "SenderBusinessSystemID": "string",
+          "RecipientBusinessSystemID": "string",
+          "SenderParty": {
+            "InternalID": {
+              "schemeID": "string",
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "StandardID": {
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "ContactPerson": {
+              "InternalID": {
+                "schemeID": "string",
+                "schemeAgencyID": "string",
+                "Value": "string"
+              },
+              "OrganisationFormattedName": "string",
+              "PersonFormattedName": "string",
+              "PhoneNumber": {
+                "AreaID": "string",
+                "SubscriberID": "string",
+                "ExtensionID": "string",
+                "CountryCode": "string",
+                "CountryDiallingCode": "string",
+                "CountryName": {
+                  "languageCode": "string",
+                  "Value": "string"
+                }
+              },
+              "FaxNumber": {
+                "AreaID": "string",
+                "SubscriberID": "string",
+                "ExtensionID": "string",
+                "CountryCode": "string",
+                "CountryDiallingCode": "string",
+                "CountryName": {
+                  "languageCode": "string",
+                  "Value": "string"
+                }
+              },
+              "EmailURI": {
+                "schemeID": "string",
+                "Value": "string"
+              }
+            }
+          },
+          "RecipientParty": {
+            "InternalID": {
+              "schemeID": "string",
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "StandardID": {
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "ContactPerson": {
+              "InternalID": {
+                "schemeID": "string",
+                "schemeAgencyID": "string",
+                "Value": "string"
+              },
+              "OrganisationFormattedName": "string",
+              "PersonFormattedName": "string",
+              "PhoneNumber": {
+                "AreaID": "string",
+                "SubscriberID": "string",
+                "ExtensionID": "string",
+                "CountryCode": "string",
+                "CountryDiallingCode": "string",
+                "CountryName": {
+                  "languageCode": "string",
+                  "Value": "string"
+                }
+              },
+              "FaxNumber": {
+                "AreaID": "string",
+                "SubscriberID": "string",
+                "ExtensionID": "string",
+                "CountryCode": "string",
+                "CountryDiallingCode": "string",
+                "CountryName": {
+                  "languageCode": "string",
+                  "Value": "string"
+                }
+              },
+              "EmailURI": {
+                "schemeID": "string",
+                "Value": "string"
+              }
+            }
+          },
+          "BusinessScope": {
+            "TypeCode": {
+              "listID": "string",
+              "listVersionID": "string",
+              "listAgencyID": "string",
+              "listAgencySchemeID": "string",
+              "listAgencySchemeAgencyID": "string",
+              "Value": "string"
+            },
+            "InstanceID": {
+              "schemeID": "string",
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "ID": {
+              "schemeID": "string",
+              "schemeAgencyID": "string",
+              "Value": "string"
+            }
+          }
+        },
+        "CostCentre": {
+          "actionCode": "string",
+          "nameListCompleteTransmissionIndicator": "string",
+          "Value": "string",
+          "ID": "string",
+          "BusinessCharacterValidityPeriod": {
+            "StartDate": "string",
+            "EndDate": "string"
+          },
+          "Name": {
+            "actionCode": "string",
+            "Value": "string",
+            "Name": {
+              "languageCode": "string",
+              "Value": "string"
+            },
+            "Description": {
+              "languageCode": "string",
+              "Value": "string"
+            }
+          },
+          "Attributes": {
+            "CompanyFinancialAccountingEntityID": "string",
+            "HomeBusinessSystemID": "string",
+            "CostCentreTypeCode": "string",
+            "AccountingBusinessAreaCode": {
+              "listVersionID": "string",
+              "listAgencyID": "string",
+              "Value": "string"
+            },
+            "TaxJurisdictionCode": {
+              "listID": "string",
+              "listVersionID": "string",
+              "listAgencyID": "string",
+              "listAgencySchemeID": "string",
+              "listAgencySchemeAgencyID": "string",
+              "Value": "string"
+            },
+            "ExpenseClassificationFunctionalAreaCode": {
+              "listID": "string",
+              "listVersionID": "string",
+              "listAgencyID": "string",
+              "listAgencySchemeID": "string",
+              "listAgencySchemeAgencyID": "string",
+              "Value": "string"
+            },
+            "LONG_ExpenseClassificationFunctionalAreaCode": {
+              "listID": "string",
+              "listVersionID": "string",
+              "listAgencyID": "string",
+              "listAgencySchemeID": "string",
+              "listAgencySchemeAgencyID": "string",
+              "Value": "string"
+            },
+            "CurrencyCode": "string",
+            "PostingUsageAllowedIndicator": "string",
+            "PlanUsageAllowedIndicator": "string",
+            "SecondaryCostsPostingUsageAllowedIndicator": "string",
+            "RevenuesPostingUsageAllowedIndicator": "string",
+            "CommitmentUpdateUsageAllowedIndicator": "string",
+            "SecondaryCostsPlanningUsageAllowedIndicator": "string",
+            "RevenuesPlanningUsageAllowedIndicator": "string",
+            "QuantityRequiredIndicator": "string",
+            "DepartmentName": "string",
+            "PrinterCode": {
+              "listID": "string",
+              "listVersionID": "string",
+              "listAgencyID": "string",
+              "listAgencySchemeID": "string",
+              "listAgencySchemeAgencyID": "string",
+              "Value": "string"
+            }
+          },
+          "CompanyAssignment": {
+            "CompanyLegalEntityID": "string"
+          },
+          "ProfitCentreAssignment": {
+            "ProfitCentreID": "string"
+          },
+          "ResponsibleManager": {
+            "UserAccountID": {
+              "schemeAgencyID": "string",
+              "schemeAgencySchemeAgencyID": "string",
+              "Value": "string"
+            },
+            "ResponsibleManagingEmployeeID": {
+              "schemeID": "string",
+              "schemeAgencyID": "string",
+              "Value": "string"
+            },
+            "FormattedName": "string"
+          },
+          "AddressInformation": {
+            "Name": {
+              "FormOfAddressName": "string",
+              "FirstLineName": "string",
+              "SecondLineName": "string",
+              "ThirdLineName": "string",
+              "FourthLineName": "string"
+            },
+            "PostalAddress": {
+              "CountryCode": "string",
+              "RegionCode": {
+                "listID": "string",
+                "listVersionID": "string",
+                "listAgencyID": "string",
+                "listAgencySchemeID": "string",
+                "listAgencySchemeAgencyID": "string",
+                "Value": "string"
+              },
+              "CityName": "string",
+              "DistrictName": "string",
+              "StreetPostalCode": "string",
+              "StreetName": "string",
+              "POBoxPostalCode": "string",
+              "POBoxID": "string"
+            },
+            "Communication": {
+              "CorrespondenceLanguageCode": "string",
+              "FirstTelephoneNumberDescription": "string",
+              "SecondTelephoneNumberDescription": "string",
+              "TeleboxNumberDescription": "string",
+              "FacsimileNumberDescription": "string",
+              "TeletexNumberDescription": "string",
+              "TelexNumberDescription": "string",
+              "DataCommunicationLineNumberDescription": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+  
